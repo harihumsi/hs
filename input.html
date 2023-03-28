@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="s.css">
+    <link rel="icon" href="download.png">
+    <title>claculator</title>
+    
+</head>
+<body>
+    <div class="bod">
+        <form name="har" class="pad">
+            <input id="dis" type="text" name="display">
+            <br>
+            <input class="but" type="button" value="1" onclick="har.display.value += '1'">
+            <input class="but" type="button" value ="2" onclick="har.display.value += '2'">
+            <input class="but" type="button" value ="3" onclick="har.display.value += '4'">
+            <input  class="opera" type="button" value ="+" onclick="har.display.value += '+'">
+            <br>
+            <input class="but" type="button" value="4" onclick="har.display.value += '4'">
+            <input class="but" type="button" value ="5" onclick="har.display.value += '5'">
+            <input class="but" type="button" value ="6" onclick="har.display.value += '6'">
+            <input  class="opera" type="button" value ="-" onclick="har.display.value += '-'">
+            <br>
+            <input class="but" type="button" value="7" onclick="har.display.value += '7'">
+            <input class="but" type="button" value ="8" onclick="har.display.value += '8'">
+            <input class="but" type="button" value ="9" onclick="har.display.value += '9'">
+            <input  class="opera" type="button" value ="*" onclick="har.display.value += '*'">
+            <br>
+            <input class="but"  type="button" value ="=" onclick="har.display.value = eval(har.display.value)">
+            <input class="but" type="button" value ="0" onclick="har.display.value += '0'">
+            <input class="but" class="opera" type="button" value ="/" onclick="har.display.value += '/'">
+            <input  class="opera" type="button" value ="%" onclick="har.display.value += '%'">
+            <br>
+            <input  id="HAR" type="button" value="DEL" onclick="har.display.value =''" >
+            <input  class="opera" type="button" value ="." onclick="har.display.value += '.'">
+            <input  class="opera" type="button" value ="^" onclick="har.display.value += '**'">
+        </form>
+    </div>
+</body>
+</html>
